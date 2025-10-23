@@ -733,7 +733,7 @@ A nod to the tools, patience and persistence that brought the Data Transformatio
 
 ### 🎮 Dedication  
 *In memory of my best friend, Archer Maclean — a true pioneer who showed that precision and fun belong side by side.*   
-*His spirit of invention, humour and curiosity lives quietly between the lines of every function and every log entry.* ![IK+](./ikChar.png) 
+*His spirit of invention, humour and curiosity lives quietly between the lines of every function and every log entry.*  ![IK+ Character](https://github.com/GMJ2023/assets/blob/main/ikChar.png) 
 
 ## 🧾 Change Log  
 - **v10** – Added System Overview Diagram and updated dedication text *(22 Oct 2025 – G.J.)*  
