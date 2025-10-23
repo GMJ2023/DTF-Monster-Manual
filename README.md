@@ -2,8 +2,8 @@
 ### *The Monster Manual – Data Transformation & PDF Processing System*
 
 > *“The drop zone for all your spreadsheets and PDFs.”*  
-> *In memory of my best friend, Archer Maclean — a true pioneer who showed that precision and fun belong side by side.* ![IK+ Character](https://github.com/GMJ2023/assets/blob/main/ikChar.png)
-*His spirit of invention.* 
+> *In memory of my best friend, Archer Maclean — a true pioneer who showed that precision and fun belong side by side.*
+*His spirit of invention.*  ![IK+ Character](https://github.com/GMJ2023/assets/blob/main/ikChar.png)
 
 ---
 
