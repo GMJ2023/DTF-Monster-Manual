@@ -902,3 +902,11 @@ Notes:
 
 ---
 *End of Master Version — DTF15 (November 2025 – Geoffrey Jones)*
+
+---
+
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
+
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
