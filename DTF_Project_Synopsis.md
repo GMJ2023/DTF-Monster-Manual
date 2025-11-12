@@ -45,6 +45,12 @@ Its modular architecture is adaptable beyond payroll — ideal for any environme
 
 ---
 
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
+
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
+
 ### **Personal Note**
 
 > *“The Data Transformation Framework (DTF) fix and became a framework I’m truly proud of — something that balances precision with playfulness. It’s engineering that works and tells a story.”*
