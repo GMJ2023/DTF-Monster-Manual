@@ -69,3 +69,11 @@ graph TD
     D --> E[Node.js Transformation Modules]
     E --> F[Output: Master CSV / S3 Upload]
     F --> G[Payroll & Analytics Integration]
+
+    ---
+
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
+
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
