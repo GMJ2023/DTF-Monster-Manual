@@ -1,14 +1,16 @@
-# 🧩 Data Transformation & PDF Processing System 
-###   The Monster Manual
+# Data Transformation & PDF Processing System
+### The Monster Manual
+**Author:** Geoffrey Jones  
+**Solo design & development:** 6 months (May–November 2025)
 
-**Author:** Geoffrey Jones
+> “The drop zone for all your spreadsheets and PDFs”
 
-**Solo design & development timeframe:** 6 months (May–November 2025)
+This is the complete technical memoir of the Data Transformation Framework (DTF) — a 100 % autonomous payroll ingestion pipeline that I conceived, architected, coded, debugged, and battle-hardened entirely on my own in six months.
 
-*“The drop zone for all your spreadsheets and PDFs”*  
+From raw agency file → transformation → parsing → final portal submission, every single step now runs without a human ever touching it again.
 
+And it has been doing so, quietly and perfectly, ever since.
 
-*This document explains how the Data Transformation Framework (DTF) automates the entire lifecycle of file handling and transformation, from ingestion to upload.*
 ---
 
 ## 1. Overview
