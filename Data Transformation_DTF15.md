@@ -957,12 +957,7 @@ text
 “Any sufficiently advanced automation is indistinguishable from magic…
 until you look at the retry counters.”
 ```
-
-End of Monster Manual – DTF15 All chapters now closed, all goals now delivered—by one pair of hands in six months flat.
-
-
----
-*End of Master Version — DTF15 (November 2025 – Geoffrey Jones)*
+*End of Monster Manual – DTF15 All chapters now closed, all goals now delivered—by one pair of hands in six months flat. (November 2025 – Geoffrey Jones)*
 
 ---
 
