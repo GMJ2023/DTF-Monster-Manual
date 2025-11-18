@@ -37,16 +37,16 @@ To automatically ingest, normalise, enrich, and upload every weekly timesheet an
 
 *(Insert simple flow diagram later — placeholder below)*
 
-```
-Agency CSVs / PDFs
-      ↓
-OneDrive → S3 (Upload via RPA)
-      ↓
-Catalyst Functions (Transform / Parse)
-      ↓
-CSV Paradise → online payroll application flow → Archive
-```
+```mermaid
+graph TD
+    A[Incoming Files: CSV/XLSX/PDF] --> B[File Monitor Service]
+    B --> C[PowerShell Orchestration]
+    C --> D[Zoho Catalyst Functions]
+    D --> E[Node.js Transformation Modules]
+    E --> F[Output: Master CSV / S3 Upload]
+    F --> G[Payroll & Analytics Integration]
 
+   ```
 ---
 
 ## 3. Components
