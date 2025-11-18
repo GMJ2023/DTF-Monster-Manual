@@ -13,24 +13,23 @@
 
 ## 1. Overview
 
-**Purpose:**  
-Provide an end-to-end description of the automated data transformation and PDF processing system, detailing how files flow through RPA, Catalyst, PowerShell and external services to produce master-ready CSV outputs for the online payroll application.
+**Purpose**  
+To automatically ingest, normalise, enrich, and upload every weekly timesheet and remittance file that lands in the business – forever eliminating manual data entry and file uploads.
 
-*An end-to-end guide to the Data Transformation Framework powering Zoho RPA, Catalyst and beyond.*
+**Core Achievements (all single-handedly in 6 months)**
+- Zero-touch CSV transformation engine
+- Multi-format PDF → structured CSV parsing pool
+- Resilient file-watching & orchestration backbone
+- Fully automated submission of final timesheets into the payroll web portal
+- Comprehensive logging, alerting, lock-file safety, and self-recovery
 
-**Core Functions:**  
-- Automated ingestion of agency data and mapping templates  
-- CSV transformation and upload  
-- PDF parsing, data extraction and output to CSV Paradise  
-- Periodic dispatch to the online payroll application
-
-**Tech Stack Summary:**  
-- **Zoho RPA:** Orchestration and flow control  
-- **Zoho Catalyst:** Serverless functions for processing and integration  
-- **PowerShell:** Local execution and script automation  
-- **AWS S3:** Intermediate storage and presigned URL generation  
-- **OneDrive:** Input file sources  
-- **Online payroll App:** Final data destination  
+**Tech Stack Summary**
+- Zoho RPA → orchestration trigger
+- Zoho Catalyst → serverless transformation & PDF parsing
+- PowerShell → local services, watchers
+- Node.js + Puppeteer → final portal automation
+- AWS S3 → temporary secure file bridge
+- OneDrive → source and staging folders
 
 ---
 
