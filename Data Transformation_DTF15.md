@@ -35,8 +35,6 @@ To automatically ingest, normalise, enrich, and upload every weekly timesheet an
 
 ## 2. Architecture Diagram (Overview)
 
-*(Insert simple flow diagram later — placeholder below)*
-
 ```mermaid
 graph TD
     A[Incoming Files: CSV/XLSX/PDF] --> B[File Monitor Service]
