@@ -3,7 +3,7 @@
 
 **Author:** Geoffrey Jones
 
-**Solo development timeframe:** 6 months (May–November 2025)
+**Solo design & development timeframe:** 6 months (May–November 2025)
 
 *“The drop zone for all your spreadsheets and PDFs”*  
 
@@ -902,72 +902,68 @@ Notes:
 - v15 - End of Master Version — DTF15 (October 2025 – Geoffrey Jones)
 - v15.1 – Added Appendix E (Scheduled Tasks & Watchdogs) including Monitor Browser & Services and Monitor Output Log definitions (Nov 2025 – G.J.)
 
+ ---
 ## Appendix F – Timesheet Automation Module (Puppeteer)
+**Author:** Geoffrey Jones  
+**Completed:** November 2025  
+**Solo development timeframe:** 6 months (May–November 2025)
 
-**Author:** Geoffrey Jones 
+This standalone Node.js + Puppeteer script is the capstone of the entire framework.
 
-**Completed:** November 2025 
+Working completely alone, I built a bullet-proof autonomous uploader that takes the final weekly timesheet CSV and submits it into the online payroll portal with zero human intervention – including an automatic second-pass to a fallback entity whenever residual unmatched records remain.
 
-This standalone Node.js + Puppeteer script is the capstone of the Data Transformation Framework.
+Key features I designed and implemented single-handedly:
+- Persistent authenticated browser session reuse (Chrome remote debugging)
+- Deep resilience against detached iframes, dynamic IDs, pop-ups, and spontaneous UI rebuilds
+- Multi-layer retry logic with intelligent recovery paths
+- Automatic second-pass submission when required
+- Full local logging, lock-file orchestration, completion-status JSON, screenshots, and webhook notification on every run
+- Graceful degradation and self-contained error recovery
 
-Working entirely on my own, I built a fully autonomous uploader that takes the final weekly timesheet CSV files and submits them into the online payroll portal with zero human intervention.
+After six intense months of nightly iterations and log-diving, it now simply works – week after week, without fail, without anyone ever clicking “Upload” again.
 
-Key features I implemented single-handedly:
+From the moment a file lands in the watched folder to final confirmation inside the payroll portal, the loop is 100 % automated.
 
-- Re-use of a persistent, pre-authenticated browser session (Chrome remote debugging)
-- Deep resilience against detached iframes, dynamic element IDs, pop-ups, and mid-process UI rebuilds
-- Multi-stage retry logic with intelligent fallbacks
-- Automatic second-pass submission to a secondary entity when required to clear residual unmatched records
-- Comprehensive local logging, lock-file orchestration, completion-status files, screenshots, and webhook notifications after every run
-- Self-contained error recovery and graceful degradation
+Goal set in May 2025: **“No more manual timesheet uploads. Ever.”**  
+Goal achieved in November 2025.
 
-After six intense months of iterative development, testing, and late-night log diving, the script reached a point where it simply works—night after night, weekend after weekend—without ever needing a human to click “Upload” again.
-
-From the moment an agency file lands in the watched folder to the final confirmation inside the payroll portal, the loop is now 100 % automated.
-
-That was the original goal I set myself when I started this piece of the framework: **no more manual timesheet uploads, ever**.
-
-Goal achieved.
-
-This module is therefore the final functional component I needed to deliver. With it in place, the entire inbound payroll pipeline—from raw agency files (CSV or PDF) all the way through transformation, parsing, and final portal submission—is now end-to-end automated.
-
-Mission complete.
-
-------
-
-### Closing Note – Six Months, One Developer, Zero Hand-offs
-
-To anyone who will ever read these logs in the future:
-
-This part of the system, and frankly most of the surrounding framework, was built by one person in ordinary evenings and weekends over half a year. No team, no hand-offs, no external contractors—just me, a lot of coffee, and an unreasonable belief that it ought to be possible to make the whole thing run by itself.
-
-It was.
-
-If something breaks tomorrow, the logs will tell you exactly what happened (they always did). If you need to extend it, the code is deliberately loud and chatty for a reason: I wanted whoever came next to feel like they were sitting next to me while I explained it.
-
-Thank you for trusting me with the keys to this particular kingdom of chaos. It has been an absolute privilege to turn that chaos into something quiet, reliable, and—on its good days—almost magical.
-
-Look after the little monster. It was built with care.
-
-Geoffrey Jones November 2025
-
-text
-
-```
-“Any sufficiently advanced automation is indistinguishable from magic…
-until you look at the retry counters.”
-```
-*End of Monster Manual – DTF15 All chapters now closed, all goals now delivered—by one pair of hands in six months flat. (November 2025 – Geoffrey Jones)*
+Mission complete. This was the final piece.
 
 ---
+### Closing Note – Six Months, One Developer, Zero Hand-offs
 
-**Copyright © 2025 Geoffrey Jones**
- 
- **All rights reserved.**
+To anyone who ever inherits these log files:
 
-This codebase and all associated materials are proprietary to Geoffrey Jones.
- No part of this work may be copied reproduced modified distributed or used for any purpose other than the specific engagement for which access was granted.
- Any other use requires prior written consent from the copyright holder.
+Most of this framework – and absolutely all of the hardest, dirtiest, flakiest parts – were built by one person, including evenings and weekends, over half a year.  
+No team. No contractors. Just me, an unreasonable amount of coffee, and the quiet conviction that it ought to be possible to make the whole thing run itself.
+
+It is.
+
+If something breaks tomorrow, the logs will tell you the story (they always did).  
+If you need to extend it, the code is deliberately verbose and chatty on purpose – I wanted the next pair of eyes to feel like I was sitting right there explaining it.
+
+Thank you for letting me turn a mountain of manual chaos into something quiet, reliable, and – on its best days – borderline magical.
+
+Look after the little monster.  
+It was built with ridiculous amounts of care.
+
+Geoffrey Jones  
+November 2025
+“Any sufficiently advanced automation is indistinguishable from magic…
+until you open the logs and see how many retries it actually took.”
+
+**End of Monster Manual – DTF15**  
+*All chapters closed. All goals delivered. One pair of hands. Six months flat.*
+
+---
+**Copyright © 2025 Geoffrey Jones**  
+**All rights reserved.**
+
+his codebase and all associated materials are proprietary to Geoffrey Jones.
+No part of this work may be copied reproduced modified distributed or used for any purpose other than the specific engagement for which access was granted.
+Any other use requires prior written consent from the copyright holder.
+
+---
 
 
 
